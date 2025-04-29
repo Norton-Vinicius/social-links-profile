@@ -1,0 +1,63 @@
+body {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+    width: 330px;
+    padding: 20px;
+}
+
+.card .profile-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .profile-informations img {
+    border-radius: 100px;
+    width: 100px;
+}
+.card .location {
+    color: hsl(75, 94%, 57%);
+}
+
+.card .menu {
+    padding: 0;
+}
+
+.card .menu .button {
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    background-color: #252525;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.card .button:hover {
+    background-color: hsl(75, 94%, 57%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    color: hsl(0, 0%, 8%);
+}
+
