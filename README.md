@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/solution.png)
+![](./solution.png)
 
 Here is a screenshot of the solution I was able to achieve.
 
